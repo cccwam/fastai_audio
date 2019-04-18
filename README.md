@@ -2,7 +2,7 @@
 
 This work was based on the excellent work from [sevinfx/fastai_audio](https://github.com/sevenfx/fastai_audio).
 
-However, most of codes has been reengineered, with the notable exception of spectograms generation using PyTorch.
+However, most of code has been reengineered, with the notable exception of spectograms generation using PyTorch.
 The benefit from this code review is:
 - Preprocessing / Data augmentation
   - Management of mono and stereo files, including for dataloader and models.
