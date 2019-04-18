@@ -4,7 +4,7 @@ This work was based on the excellent work from [sevinfx/fastai_audio](https://gi
 
 However, most of codes has been reengineered, with the notable exception of spectograms generation using PyTorch.
 The benefit from this code review is:
-- Preprocessing
+- Preprocessing / Data augmentation
   - Management of mono and stereo files, including for dataloader and models.
 - Performance improvements: 
   - Files can be read by Scipy (faster but doesn't work for some wave) or Librosa (slower but works on almost all files)
@@ -21,6 +21,7 @@ Note: This is an unofficial module add-on for [`fastai v1`](https://github.com/f
 ##### Related Links
 * [fastai v1 docs](https://docs.fastai.com)
 * [Audio Classification using FastAI and On-the-Fly Frequency Transforms](https://towardsdatascience.com/audio-classification-using-fastai-and-on-the-fly-frequency-transforms-4dbe1b540f89)
+* [On the fly audio data augmentation with GPU for Keras](https://github.com/keunwoochoi/kapre)
 
 #### Dependencies
 * python 3.7
